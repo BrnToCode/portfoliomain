@@ -24,6 +24,18 @@ body {
     opacity: 0.9;
     filter: brightness(0.5);
 }
+
+.box {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    scale: 1.;
+    transform: rotateZ(324deg);
+}
 .section {
     display: inline-flex;
     position: relative;
